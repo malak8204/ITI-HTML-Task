@@ -1,1 +1,322 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio page">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+    <h2>
+ Malak Mahmoud
+    </h2>
+ 
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#courses">Courses</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#faq">FAQ</a>
+</nav>
+    </header>
+
+<main>
+
+    <hr>
+
+    <section id="about">
+
+        <h1>Welcome to My Portfolio</h1>
+
+        <p>
+            My name is Malak Mahmoud. I am in my fourth year of AI Engineering.
+        </p>
+
+        <img src="Images/web.jpg" alt="Web development illustration"width=300>
+    </section>
+    <hr>
+    <section id="skills">
+        <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+   <li>C++</li> 
+    <li> Python</li>
+<LI>Java</LI>
+<li>Problem Solving</li>
+        </ul>
+        <h2>Learning React Steps </h2>
+        <ol>
+ <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn JavaScript</li>
+        <li>Learn React</li>
+        </ol>
+        <p>
+              I am <strong>serious</strong> about learning web development,
+        and I am <em>very excited</em> to improve my skills.
+        My current focus is <mark>HTML</mark>.
+        </p>
+    </section>
+        
+            <hr>
+   <h2>My Courses</h2>
+  <section id="courses">
+<table border="1">
+    <caption>
+        Courses
+    </caption>
+    <thead>
+        <tr>
+ <th>Course Name</th>
+                <th>Duration</th>
+                <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+<tr>
+    <th>Web Development using React</th>
+    <th>1 Month</th>
+    <th>In Progress</th>
+</tr>
+<tr>
+    <th>Web Development </th>
+    <th>1 Month</th>
+    <th>Completed</th>
+</tr>
+<tr>
+    <th>Cloud Computing</th>
+    <th>1 Month</th>
+    <th>Completed</th>
+</tr>
+    </tbody>
+    <tfoot>
+            <tr>
+                <td colspan="3">More courses will be added soon.</td>
+            </tr>
+        </tfoot>
+</table>
+            </section>
+            <hr>
+            <section id="gallery">
+                <h2>Gallery</h2>
+                 <figure>
+        <img src="Images/Workspace.avif" alt="Laptop used for web development" width="100">
+        <figcaption>My coding workspace</figcaption>
+    </figure>
+
+    <figure>
+        <img src="Images/html.avif" alt="HTML code displayed on a computer"width="200">
+        <figcaption>Practicing HTML</figcaption>
+    </figure>
+
+    <figure>
+        <img src="Images/web_Dev.jpg" alt="Web development learning materials"width="200">
+        <figcaption>My learning journey</figcaption>
+    </figure>
+
+            </section>
+            <hr>
+            <section id="contact">
+                  <h2>Contact Me</h2>
+                  <form>
+                    <label for="name">Full Name:</label>
+
+
+<input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Enter your full name"
+    required
+>
+
+<br>
+<br>
+ <label for="email">Email:</label>
+
+
+<input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="example@email.com"
+    required
+>
+
+<br>
+<br>
+<label for="Phone">Phone Number:</label>
+
+
+<input
+    type="tel"
+    id="Phone"
+    name="Phone"
+    placeholder="01000000000"
+    required
+>
+
+<br>
+<br>
+<label for="birthdate">Date Of Birth:</label>
+
+
+<input
+    type="date"
+    id="birthdate"
+    name="birthdate"
+    placeholder="dd/mm/yy"
+    required
+>
+
+<br>
+<br>
+<label for="message">Message:</label>
+<br>
+
+<textarea
+    id="message"
+    name="message"
+    rows="5"
+    cols="40"
+    placeholder="Write your message here"
+></textarea>
+
+<br>
+<br>
+<label for="subject">Subject:</label>
+<select id="subject" name="subject">
+
+    <option value="">Choose a subject</option>
+    <option value="general">General Question</option>
+    <option value="project">Project</option>
+    <option value="job">Job Opportunity</option>
+
+</select>
+
+<br>
+<br>
+<p>Preferred Contact Method:</p>
+
+<input
+    type="radio"
+    id="contact-email"
+    name="contact-method"
+    value="email"
+>
+
+<label for="contact-email">Email</label>
+
+<br>
+
+<input
+    type="radio"
+    id="contact-phone"
+    name="contact-method"
+    value="phone"
+>
+
+<label for="contact-phone">Phone</label>
+
+<br>
+<br>
+<input
+    type="checkbox"
+    id="terms"
+    name="terms"
+    required
+>
+
+<label for="terms">
+    I agree to the terms and conditions
+</label>
+
+<br>
+<br>
+<button type="submit">Submit</button>
+
+<button type="reset">Reset</button>
+
+                  </form>
+            </section>
+            <hr>
+
+
+<section id="faq">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+        <summary>What am I learning?</summary>
+
+        <p>
+            I am currently learning web development.
+        </p>
+    </details>
+
+    <details>
+        <summary>What technologies am I studying?</summary>
+
+        <p>
+            I am studying HTML, CSS, JavaScript, and React.
+        </p>
+    </details>
+
+    <details>
+        <summary>Can you contact me?</summary>
+
+        <p>
+            Yes, you can use the contact form above.
+        </p>
+    </details>
+
+</section>
+ <hr>
+<footer>
+
+   
+
+<h2>Contact Information</h2>
+
+    <address>
+        Email:
+        <a href="mailto:example@email.com">
+           malakmahmoud685@gmail.com
+        </a>
+
+        <br>
+
+        Cairo, Egypt
+    </address>
+
+    <p>
+        Follow me:
+       
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn:https://www.linkedin.com/in/malak-mahmoud-3b8a56348/</a>
+    </p>
+
+    <p>
+        &copy; 2026 My Portfolio. All rights reserved.
+    </p>
+
+</footer>
+      
+      
+    
+
+    
+
+</main>
+
+
+
+
+
+</body>
+
+</html>
