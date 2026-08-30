@@ -1,0 +1,134 @@
+.hero{
+    background-color: white;
+}
+.first{
+    background-image: url(../images/background.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    padding: 20vh;
+   text-align: center;
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.first .logo {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    height: 40px;
+   
+    z-index: 10; 
+}
+.first nav {
+    
+   position: absolute;
+    top: 30px;
+    right: 80px;
+    gap: 50px;
+   
+}
+.first nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    margin-left: 20px;
+}
+
+.first p{
+    color:rgba(245, 245, 245, 0.788) ;
+    font-size: 16px;
+  
+  
+}
+.first h1{
+    color: white;
+   font-family:'Times New Roman', Times, serif;
+   font-size: 50px;
+}
+.first button {
+    position: absolute;
+    top: 70%;
+    padding: 12px 28px;
+    font-size: 13px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 0 5px 120px 5px; 
+    transition: all 0.3s ease;
+}
+
+.btn1 {
+    left: 42%;
+    background-color: #8f7253;
+    color: #ffffff;
+    border: 1px solid #8f7253;
+    z-index: 10;
+}
+
+.btn2 {
+     left: 50%;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    z-index: 10;
+}
+.second{
+    width: 80%;
+    padding: 5vh;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+    position: relative;
+
+}
+
+.second img{
+    width: 350px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    height: 35vh;
+   
+    
+
+}
+.second h3 {
+   position: absolute;
+    top: 50px;
+    left: 54%;
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #333;
+    font-weight: 400;
+}
+
+.second .about-text {
+    position: absolute;
+    top: 120px;
+    left: 54%;
+    width: 35%;
+    max-width: 480px;
+    font-size: 13px;
+   color: #555555;
+    line-height: 1.7;
+    text-align: left;
+}
+.second .list {
+    position: absolute;
+    top: 200px;
+    left: 54%;
+    text-align: left;
+}
+
+.second .list p {
+    font-size: 13.5px;
+    color: #555555;
+    margin-bottom: 20px; 
+}
+
