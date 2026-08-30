@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do-List</title>
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <div class="navbar">
+            <input type="text" id="taskinput" placeholder="Add a new task">
+            <button id="addBtn">Add</button>
+        </div>
+        <ul id="taskList" class="task-list">
+      <li class="task-item">
+        <span class="task-text">New Task</span>
+        <div class="actions">
+          <button class="icon-btn edit-btn" title="Edit">✏️</button>
+          <button class="icon-btn delete-btn" title="Delete">🗑️</button>
+        </div>
+      </li>
+      <li class="task-item">
+        <span class="task-text">To Do Task</span>
+        <div class="actions">
+          <button class="icon-btn edit-btn" title="Edit">✏️</button>
+          <button class="icon-btn delete-btn" title="Delete">🗑️</button>
+        </div>
+      </li>
+    </ul>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
